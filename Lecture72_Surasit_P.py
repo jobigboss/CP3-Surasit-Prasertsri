@@ -3,7 +3,7 @@ def showBill():
     totalPice = 0
     print("---- Life uNI Shop----")
     for number in range(len(menuList)):
-        print(menuList[number])
+        print(menuList[number][0],menuList[number][1])
         totalPice += int(menuList[number][1])
     print("Total",totalPice)
 while True:
